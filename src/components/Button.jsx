@@ -1,3 +1,4 @@
+// Creazione della funzione Button con attivazione e selezione di linguaggio 
 function Buttons({ languages, activeLanguages, setActiveLanguages }) {
     return (
         <div className="buttons">
@@ -14,4 +15,5 @@ function Buttons({ languages, activeLanguages, setActiveLanguages }) {
     )
 }
 
+// Esportazione di Buttons
 export default Buttons;

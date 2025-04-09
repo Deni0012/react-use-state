@@ -1,3 +1,4 @@
+// Creazione della funzione Main con linguaggio corrente
 function Main({ currentLanguages }) {
     return (
         <div className="contentuto-container">
@@ -9,4 +10,5 @@ function Main({ currentLanguages }) {
     )
 }
 
+// Esportazione di Main
 export default Main;
